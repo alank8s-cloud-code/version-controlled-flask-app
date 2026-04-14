@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Git Learning | DevOps</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: #0a0a0a;
+            color: #00ff88;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #00e5ff;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background: #111827;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 12px;
+            border-left: 4px solid #00e5ff;
+        }
+
+        h3 {
+            margin-bottom: 10px;
+            color: #38bdf8;
+        }
+
+        code {
+            display: block;
+            background: #000;
+            padding: 10px;
+            border-radius: 8px;
+            color: #00ff88;
+            margin-top: 8px;
+        }
+
+        p {
+            color: #cbd5e1;
+            font-size: 14px;
+            margin: 5px 0;
+        }
+
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 30px;
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        .step {
+            font-size: 12px;
+            opacity: 0.8;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>💻 Git Learning (Step-by-Step Guide)</h1>
+
+        <!-- INIT -->
+        <div class="card">
+            <div class="step">Step 1</div>
+            <h3>Initialize Git Repository</h3>
+            <p>Create a new git project</p>
+            <code>git init</code>
+        </div>
+
+        <!-- ADD -->
+        <div class="card">
+            <div class="step">Step 2</div>
+            <h3>Add Files to Staging Area</h3>
+            <p>Prepare files for commit</p>
+            <code>git add .</code>
+        </div>
+
+        <!-- COMMIT -->
+        <div class="card">
+            <div class="step">Step 3</div>
+            <h3>Commit Changes</h3>
+            <p>Save changes with message</p>
+            <code>git commit -m "first commit"</code>
+        </div>
+
+        <!-- BRANCH -->
+        <div class="card">
+            <div class="step">Step 4</div>
+            <h3>Create New Branch</h3>
+            <p>Used for feature development</p>
+            <code>git branch feature-branch</code>
+        </div>
+
+        <!-- SWITCH BRANCH -->
+        <div class="card">
+            <div class="step">Step 5</div>
+            <h3>Switch Branch</h3>
+            <p>Move to another branch</p>
+            <code>git checkout feature-branch</code>
+        </div>
+
+        <!-- PUSH -->
+        <div class="card">
+            <div class="step">Step 6</div>
+            <h3>Push to GitHub</h3>
+            <p>Upload your code to remote repo</p>
+            <code>git push origin main</code>
+        </div>
+
+        <!-- PULL -->
+        <div class="card">
+            <div class="step">Step 7</div>
+            <h3>Pull Latest Changes</h3>
+            <p>Get latest code from GitHub</p>
+            <code>git pull origin main</code>
+        </div>
+
+        <!-- MERGE -->
+        <div class="card">
+            <div class="step">Step 8</div>
+            <h3>Merge Branch</h3>
+            <p>Combine feature branch into main</p>
+            <code>
+git checkout main  
+git merge feature-branch
+            </code>
+        </div>
+
+        <!-- STATUS -->
+        <div class="card">
+            <div class="step">Bonus</div>
+            <h3>Check Status</h3>
+            <p>See current changes</p>
+            <code>git status</code>
+        </div>
+
+        <a href="/">← Back to Home</a>
+    </div>
+</body>
+
+</html>
