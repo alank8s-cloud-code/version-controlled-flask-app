@@ -29,20 +29,34 @@ GitHub is a **cloud-based platform** used to host Git repositories.
 
 ---
 
-## 📂 Project Structure Example
+## 📂 Project Structure 
 
 ```
-project/
-│── app.py
-├── Dockerfile
-│── requirements.txt
-│── README.md
-│── .gitignore
-│── templates/
-│    ├── index.html
-│    ├── about.html
-|    |── about.html
-│── asset/  # store task4 output
+
+version-controlled-flask-app/
+│── app.py              # Main Flask application file
+│── Dockerfile          # Used to containerize the application using Docker
+│── requirements.txt    # Contains all Python dependencies
+│── README.md           # Project documentation and setup guide
+│── .gitignore          # Specifies files/folders to ignore in Git
+│── git.html            # Page showing Git learning/output results
+│
+├── templates/          # HTML templates for the web app
+│   ├── index.html      # Home page
+│   ├── about.html      # About page
+|   ├── git.html        # Git learning/output page
+│
+├── asset/              # Stores Git task outputs (screenshots)
+│   ├── branch.png      # Git branching workflow
+│   ├── log.png         # Git commit history log
+│   ├── pro-1.png       # Project output screenshot 1
+│   ├── pro-2.png       # Project output screenshot 2
+│   ├── pro-3.png       # Project output screenshot 3
+│   ├── pull.png        # Git pull operation
+│   ├── push.png        # Git push operation
+│   ├── rebase.png      # Git rebase demonstration
+│   ├── tag1.png        # Git tagging example
+
 
 ```
 
@@ -170,25 +184,47 @@ git revert <commit-id>
 
 ---
 
-## 🖼️ How to Add Image in README.md
+## 🖼️ Task4: output
 
-### 📌 Step 1: Add image in repo
+### 📌 Step 1: create branch and switch
 
 ```
-/images/git-flow.png
+![Git Workflow](asset/branch.png)
 ```
 
-### 📌 Step 2: Markdown syntax
+### 📌 Step 2: After git add and git commit -m "what you add/change"
 
 ```md
-![Git Workflow](images/git-flow.png)
+![Git Workflow](asset/push.png)
 ```
 
-### 📌 Step 3: GitHub URL method
+### 📌 Step 3: My git head is behind when i use these commands
 
 ```md
-![Git Image](https://github.com/username/repo/blob/main/images/git-flow.png)
+![Git Image](asset/pull.png)
+![Git Image](asset/rebase.png)
 ```
+
+### 📌 Step 4: git log : to show your commit history
+
+```md
+![Git Image](asset/log.png)
+![Git Image](asset/rebase.png)
+```
+
+### 📌 Step 5: A Git tag is like a name you give to a saved version of your project so you can find it later easily.
+```md
+![Git Image](asset/tag1.png)
+![Git Image](asset/rebase.png)
+```
+
+### 📌 Output: Version-Controlled DevOps Project with Git 
+```md
+![Git Image](asset/pro-1.png)
+![Git Image](asset/pro-2.png)
+![Git Image](asset/pro-3.png)
+```
+
 
 ---
 
@@ -211,4 +247,7 @@ git revert <commit-id>
 5. Push to GitHub
 
 ---
+### 📌 Result
+
+Successfully learned Git basics, including tracking changes, using branches, and managing project versions efficiently.
 
