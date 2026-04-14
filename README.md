@@ -190,15 +190,13 @@ git revert <commit-id>
 
 ![Git Workflow](./asset/branch.png)
 
-```
-```
+---
 
 ### 📌 Step 2: After git add and git commit -m "what you add/change"
 
 ![Git Workflow](asset/push.png)
 
-```
-```
+---
 
 ### 📌 Step 3: My git head is behind when i use these commands
 
@@ -206,19 +204,14 @@ git revert <commit-id>
 
 ![Git Image](asset/rebase.png)
 
-```bash
-
-```
-
+---
 ### 📌 Step 4: git log : to show your commit history
 
 ![Git Image](asset/log.png)
 
 ![Git Image](asset/rebase.png)
 
-```bash
-
-```
+---
 
 ### 📌 Step 5: A Git tag is like a name you give to a saved version of your project so you can find it later easily.
 
@@ -226,9 +219,7 @@ git revert <commit-id>
 
 ![Git Image](asset/rebase.png)
 
-```bash
-
-```
+---
 
 ### 📌 Output: Version-Controlled DevOps Project with Git 
 
@@ -260,6 +251,7 @@ git revert <commit-id>
 5. Push to GitHub
 
 ---
+
 ### 📌 Result
 
 Successfully learned Git basics, including tracking changes, using branches, and managing project versions efficiently.
