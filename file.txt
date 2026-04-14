@@ -5,4 +5,4 @@ hii
 add global user and email
 hello dosto
 hi hi
-after adding .gitignore
+after adding .gitignore and practicle 
