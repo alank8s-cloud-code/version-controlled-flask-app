@@ -4,3 +4,4 @@ this line add github
 hii
 add global user and email
 hello dosto
+after adding .gitignore
