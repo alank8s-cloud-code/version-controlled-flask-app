@@ -238,9 +238,6 @@ git revert <commit-id>
 
 ![Git Image](asset/pro-3.png)
 
-```bash
-
-```
 
 ---
 
