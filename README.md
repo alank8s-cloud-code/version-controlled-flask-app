@@ -209,15 +209,11 @@ git revert <commit-id>
 
 ![Git Image](asset/log.png)
 
-![Git Image](asset/rebase.png)
-
 ---
 
 ### 📌 Step 5: A Git tag is like a name you give to a saved version of your project so you can find it later easily.
 
 ![Git Image](asset/tag1.png)
-
-![Git Image](asset/rebase.png)
 
 ---
 
