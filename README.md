@@ -188,57 +188,57 @@ git revert <commit-id>
 
 ### 📌 Step 1: create branch and switch
 
-```
-
 ![Git Workflow](./asset/branch.png)
 
+```
 ```
 
 ### 📌 Step 2: After git add and git commit -m "what you add/change"
 
-```md
-
 ![Git Workflow](asset/push.png)
 
 ```
+```
 
 ### 📌 Step 3: My git head is behind when i use these commands
-
-```md
 
 ![Git Image](asset/pull.png)
 
 ![Git Image](asset/rebase.png)
 
+```md
+
 ```
 
 ### 📌 Step 4: git log : to show your commit history
-
-```md
 
 ![Git Image](asset/log.png)
 
 ![Git Image](asset/rebase.png)
 
+```md
+
 ```
 
 ### 📌 Step 5: A Git tag is like a name you give to a saved version of your project so you can find it later easily.
-```md
 
 ![Git Image](asset/tag1.png)
 
 ![Git Image](asset/rebase.png)
 
+```md
+
 ```
 
 ### 📌 Output: Version-Controlled DevOps Project with Git 
-```md
 
 ![Git Image](asset/pro-1.png)
 
 ![Git Image](asset/pro-2.png)
 
 ![Git Image](asset/pro-3.png)
+
+```md
 
 ```
 
