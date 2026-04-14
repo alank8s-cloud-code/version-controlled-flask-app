@@ -206,7 +206,7 @@ git revert <commit-id>
 
 ![Git Image](asset/rebase.png)
 
-```md
+```bash
 
 ```
 
@@ -216,7 +216,7 @@ git revert <commit-id>
 
 ![Git Image](asset/rebase.png)
 
-```md
+```bash
 
 ```
 
@@ -226,7 +226,7 @@ git revert <commit-id>
 
 ![Git Image](asset/rebase.png)
 
-```md
+```bash
 
 ```
 
@@ -238,7 +238,7 @@ git revert <commit-id>
 
 ![Git Image](asset/pro-3.png)
 
-```md
+```bash
 
 ```
 
