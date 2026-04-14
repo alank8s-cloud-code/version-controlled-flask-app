@@ -189,7 +189,7 @@ git revert <commit-id>
 ### 📌 Step 1: create branch and switch
 
 ```
-![Git Workflow](asset/branch.png)
+![Git Workflow](./asset/branch.png)
 ```
 
 ### 📌 Step 2: After git add and git commit -m "what you add/change"
